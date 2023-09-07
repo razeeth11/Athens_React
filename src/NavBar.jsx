@@ -25,7 +25,7 @@ export function NavBar() {
           <a href="#">Open Store Free</a>
         </li>
       </ul>
-      <button className="px-[30px] py-[12px] font-medium text-white bg-[#1c4a3e] rounded">
+      <button className="hover:text-[white] hover:bg-[#0f8868] px-[30px] py-[12px] font-medium text-white bg-[#1c4a3e] rounded duration-[350ms]">
         Purchase Now
       </button>
     </div>

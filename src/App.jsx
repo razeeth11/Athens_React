@@ -1,4 +1,5 @@
 import "./App.css";
+import { Main } from "./Main.1";
 import { NavBar } from "./NavBar";
 
 function App() {
@@ -6,49 +7,178 @@ function App() {
     <>
       <NavBar />
       <Main />
+      <Features />
     </>
   );
 }
 
-function Main() {
+function Features() {
   return (
-    <div className="px-[50px] py-[20px] flex justify-between items-center">
-      <div className="marketing-page-left max-w-[50%]">
-        <p className="uppercase px-8 py-2 bg-[#1c4a3e] text-white rounded max-w-max">shopify theme os 2.0</p>
-        <h1 className="text-[42px] capitalize font-medium mt-[20px] w-[80%]">
-          the <span id="marketing" className="text-[#228c70]">best performance</span> premium shopify theme
-        </h1>
-        <p className="mt-[20px] text-[14px]">
-          The best theme for every client. Adapts to any website. Built with
-          flexibility, quality, performance and customer experience in mind.
-        </p>
-        <div className="flex items-center gap-[30px] mt-[20px] font-medium">
-          <div className="flex flex-col items-center">
-            <p>15+</p>
-            <p>HOME PAGES</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <p>18+</p>
-            <p>PRODUCT PAGES</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <p>16+</p>
-            <p>SHOP PAGES</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <p>05+</p>
-            <p>HEADER STYLES</p>
+    <div className="px-[50px]">
+      <h1 className="text-[34px] font-bold text-center mt-[50px]">
+        More features <span className="text-[#228c70]">in athens</span>
+      </h1>
+      <p className="text-center w-[50%] mx-auto text-[16px] text-[#495057] mt-5 mb-10">
+        Athens focuses on customer experience and behavior to provide the best
+        features for enticing customers and boosting sales.
+      </p>
+      <div className="flex flex-wrap justify-evenly gap-2">
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/product-bundle.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
           </div>
         </div>
-        <div>
-          <button className="rounded px-[50px] py-[10px] border-[#1c4a3e] border-2 bg-[#1c4a3e] me-5 mt-[50px] text-white font-medium">Explore Features</button>
-          <button className="rounded px-[50px] py-[10px] border-[#1c4a3e] border-2 me-5 mt-[50px] text-[#1c4a3e] font-medium">View Demos</button>
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/quantity-discount.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
+          </div>
         </div>
-      </div>
-      <div className="marketing-page-right w-[50%] py-20 px-6 rounded bg-white relative">
-        <img src="https://templates.bulltheme.com/athens/assets/images/hero/bg-desktop-2.webp" alt="marketing-img.jpeg"/>
-        <img className="absolute bottom-[0]"
-        src="https://templates.bulltheme.com/athens/assets/images/hero/bg-setting.png" alt="" width='200px'/>
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/quantity-select.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
+          </div>
+        </div>
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/sale-countdown-timer.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
+          </div>
+        </div>
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/bought-together.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
+          </div>
+        </div>
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/quick-view.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
+          </div>
+        </div>
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/multi-currency.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
+          </div>
+        </div>
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/product-custom-tabs.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
+          </div>
+        </div>
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/product-variation-swatches.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
+          </div>
+        </div>
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/shoppable-images.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
+          </div>
+        </div>
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/product-video.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
+          </div>
+        </div>
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/product-360.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
+          </div>
+        </div>
+        <div className="min-w-[250px] max-w-[380px] flex flex-col items-center gap-[10px] p-1">
+          <img
+            src="https://templates.bulltheme.com/athens/assets/images/features/product-size-guide.webp"
+            alt=""
+          />
+          <div className="p-5 flex flex-col items-center gap-2 text-center">
+            <p className="font-medium text-[14px] capitalize">
+              Product bundles
+            </p>
+            <p>Featuring your popular products in bundle to grow more sale</p>
+          </div>
+        </div>
       </div>
     </div>
   );
